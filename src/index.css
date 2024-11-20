@@ -1,0 +1,147 @@
+.sidebarr {
+  width: 150px;
+
+  min-height: 700px;
+  flex-shrink: 0;
+  padding-top: 48px;
+  overflow: hidden;
+  position: fixed;
+}
+
+.contant {
+  width: 100%;
+
+
+}
+
+.app-container {
+  display: flex;
+}
+
+.card-list {
+  margin: 5px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+.card-custom {
+  overflow: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vote {
+  color: blueviolet;
+}
+
+.card-img {
+  max-height: 270px;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+.btn2 {
+  color: rgb(249, 244, 244);
+  background-color: #9C27B0;
+  border-radius: 2px;
+}
+
+.moviedetailscontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+
+  background-color: #ffffff;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.moviecard {
+
+  object-fit: cover;
+  width: 100%;
+}
+
+.story-review {
+  color: red;
+}
+
+
+
+.cast {
+  color: black;
+}
+
+.discription {
+  max-height: 300px;
+}
+
+.spinner {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  font-size: 3rem;
+  height: 100vh;
+}
+
+
+
+.search-box {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.suggestions {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+
+
+img {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+  margin-bottom: 2rem;
+}
+
+h5,
+h4 {
+  color: #555;
+
+}
